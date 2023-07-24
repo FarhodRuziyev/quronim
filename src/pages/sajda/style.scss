@@ -1,0 +1,49 @@
+.box{
+  width: 100%;
+  display: flex; flex-direction: column; align-items: center; 
+  row-gap: 30px;
+  margin: 0 auto; color: white;
+  .heding{
+    width: 90%; margin: 0 auto;
+    display: flex; justify-content: space-around; align-items: center;
+    & i{
+      color:white;
+    }
+  }
+}
+.cardla{
+  width: 100%;
+  // padding: 2rem 5rem;
+  display: flex; 
+  @media(max-width:900px){
+    padding: 2rem 2rem;
+  }
+  @media(max-width:650px){
+    display: flex; flex-direction: column; 
+    width: 90%;
+  }
+  .ulla{
+    width: 70%;
+    display: flex; flex-direction: column; row-gap: 30px; 
+    @media(max-width:900px){
+      width: 100%;
+    }
+    & li{
+      width: 70%;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      font-size: 1.3rem;
+      background-color:rgba(11, 67, 11, 0.198);
+      border-radius: 8px;
+      border: 1px solid green;
+      @media(max-width:900px){
+        width: 90%;
+        font-size: 1.1rem;
+      }
+      &:hover{
+        // background-color: rgba(44, 153, 124, 0.954);
+        box-shadow: 0 5px 10px white;
+      }
+    }
+  }
+}

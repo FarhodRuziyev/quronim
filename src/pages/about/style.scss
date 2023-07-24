@@ -1,0 +1,32 @@
+.ebout{
+  display: flex; gap: 1rem;
+  .right{
+    height: 87vh;
+    overflow-y: scroll;
+  }
+  .card{
+    display: inline-flex; margin: 10px;
+  }
+  .sura{
+    color: rgb(244, 250, 244);
+  }
+  .spen{
+    display: flex;align-items: center; justify-content: center;
+    width: 100px; height: 50px;
+    border: 0.1px solid rgb(4, 4, 67) ;
+    position: absolute;
+    background-color:rgba(13, 88, 70, 0.938);
+    color: white;
+    border-radius: 50%;
+    left: 12px;
+    top: 5px;
+    clip-path: polygon(51% 0.8%, 57.6% 37%, 76.4% 32%, 62.4% 60.7%, 71.2% 94%, 50.3% 75%, 30.6% 96.5%, 40.1% 61.2%, 25.6% 32.3%, 43.8% 38%);
+  }
+  .pargrf{   
+    margin-top: 15px;
+    padding: 0 1rem;
+    border-radius: 5px;
+    background-color: rgba(18, 88, 52, 0.977);
+    color: white;
+  }
+}

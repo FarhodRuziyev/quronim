@@ -1,0 +1,25 @@
+.aside{
+  padding: 2rem 1.7rem;
+  border-left: 1px solid green;
+  text-align: center;
+  height: 87vh;
+  .ulla{
+    display: flex; align-items: center; flex-direction: column; row-gap: 20px;
+    .ikon{
+      padding: 0.7rem;
+      border-radius: 5px;
+      font-size: 1.8rem;
+      color: rgb(4, 95, 63);
+      background-color: white;
+      &:hover{
+        padding: 0.7rem;
+        background-color: rgba(8, 71, 57, 0.525);
+        color: white;
+      }
+      &:active{
+        background-color: white;
+        padding: 0.5rem;
+      }
+    }
+  }
+}

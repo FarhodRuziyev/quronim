@@ -1,0 +1,43 @@
+.single{
+  width: 100%;text-align: center; 
+  overflow-y: scroll;
+  height: 87vh;
+  padding: 2rem;
+  color: white;
+  // background-image: url(../../../public/assets/img/image12.jpg);
+  // background-position: left; background-size: contain;
+}
+
+.cart{
+  width: 95%; margin: 0 auto; height: auto;
+  border: 1px solid green;
+  margin: 25px;
+  border-radius: 10px; 
+  background-color: rgba(11, 67, 50, 0.549);
+  padding: 2rem;
+  .text{
+    font-size: 1.3rem;
+  }
+}
+.btn{
+  display: flex; align-items: center; gap: 20px;
+  border-radius: 50px;
+  padding:  0.2rem 1rem;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.66); color: red;
+  & i{
+    font-size: 1.2rem;
+  }
+  // .doira{
+  //   display: flex; align-items: center; justify-content: center;
+  //   height: 35px;
+  //   width: 35px;
+  //   border-radius: 50%;
+  //   background-color: rgba(255, 255, 255, 0.194);
+  // }
+  .chiziq{
+    width: 89%; background-color: red;
+    height: 1px;
+  }
+}
